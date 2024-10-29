@@ -23,7 +23,7 @@ Este proyecto utiliza datos históricos del S&P 500 para predecir tendencias en 
 ## Estructura de Archivos
 
 - **`sp500.csv`**: Archivo de datos históricos del S&P 500.
-- **`main.py`**: Código principal para la obtención de datos, entrenamiento del modelo y predicción.
+- **`market_prediction.ipynb`**: Código principal para la obtención de datos, entrenamiento del modelo y predicción.
 - **`README.md`**: Descripción del proyecto (este archivo).
 
 ## Requisitos
@@ -37,6 +37,16 @@ Instala las dependencias con:
 ```bash
 pip install yfinance pandas scikit-learn
 ```
+
+## Métricas de Evaluación
+
+La precisión de predicción se mide utilizando `precision_score`, que evalúa cuántas veces el modelo acertó en la dirección del mercado. Además, se utilizan gráficos para comparar las predicciones del modelo con los valores reales de cierre del S&P 500.
+
+Contacto
+
+Para preguntas o sugerencias, no dudes en contactar. <Daniel.rivera.30@outlook.com>
+
+- Este proyecto es una herramienta educativa para explorar técnicas de predicción en mercados financieros; no es una herramienta para decisiones de inversión.
 
 
 # Predict-Stock-Market-ML
