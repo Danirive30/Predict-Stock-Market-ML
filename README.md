@@ -42,7 +42,7 @@ pip install yfinance pandas scikit-learn
 
 La precisión de predicción se mide utilizando `precision_score`, que evalúa cuántas veces el modelo acertó en la dirección del mercado. Además, se utilizan gráficos para comparar las predicciones del modelo con los valores reales de cierre del S&P 500.
 
-Contacto
+## Contacto
 
 Para preguntas o sugerencias, no dudes en contactar. <Daniel.rivera.30@outlook.com>
 
